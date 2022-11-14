@@ -23,7 +23,7 @@ const greeting = {
   username: "Naufal Firmansyah",
   title: "Hi Semua, Saya Naufal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Developer Back End yang bersemangat memiliki pengalaman membangun aplikasi Desktop dan Mobile dengan Flutter / Java  dan beberapa Framework lainnya."
   ),
   resumeLink:
     "", // Set to empty to hide the button
