@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Lenxza1",
   linkedin: "https://www.linkedin.com/in/naufal-firmansyah-081827225/",
-  gmail: "naufal.rara55@gmail.com",
+  gmail: "naufalfirmansyah455@gmail.com",
   gitlab: "",
   facebook: "https://facebook.com/naufal.firmansyah.9235",
   medium: "",
@@ -165,7 +165,7 @@ const workExperiences = {
       date: "April 2022 – Juni 2022",
       desc: "Bekerja sebagai backend developer flutter.",
       descBullets: [
-        "Bekerja selama 1 setengah bulan mengerjakan aplikasi perpustakaan dengan menggunakan flutter",
+        "Bekerja Selama 1 setengah bulan sebagai PenTester untuk website Diginusa\nmBekerja selama 1 setengah bulan mengerjakan aplikasi perpustakaan dengan menggunakan flutter",
       ]
     },
   ]
@@ -330,18 +330,18 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Mau Bekerja sama? atau hanya menyapa silahkan hubungi saya",
   number: "+6287875908732",
-  email_address: "naufal.rara55@gmail.com"
+  email_address: "naufalfirmansyah455@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "NaufalRara55", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
