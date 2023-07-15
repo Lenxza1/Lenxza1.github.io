@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -22,9 +22,9 @@ const illustration = {
 const greeting = {
   username: "Naufal Firmansyah",
   title: "Hi Semua, Saya Naufal",
-  subTitle: emoji(
-    "Developer Back End yang bersemangat memiliki pengalaman membangun aplikasi Desktop dan Mobile dengan Flutter / Java  dan beberapa Framework lainnya."
-  ),
+  subTitle: 
+    "Developer yang bersemangat memiliki pengalaman membangun aplikasi Desktop dan Mobile dengan Flutter / Java  dan beberapa Framework lainnya."
+  ,
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Lenxza1",
   linkedin: "https://www.linkedin.com/in/naufal-firmansyah-081827225/",
-  gmail: "naufal.rara55@gmail.com",
+  gmail: "naufalfirmansyah455@gmail.com",
   gitlab: "",
   facebook: "https://facebook.com/naufal.firmansyah.9235",
   medium: "",
@@ -53,11 +53,11 @@ const skillsSection = {
   subTitle: "Saya siswa di SMK Prestasi prima",
   skills: [
     emoji(
-      "⚡ Develop interactive Front end dan backend untuk aplikasi mobile"
+      "Develop interactive Front end dan backend untuk aplikasi mobile"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("Menguji sistem sekolah dengan melakukan Pentesting"),
     emoji(
-      "⚡ Integrasi software pihak ketiga seperti Firebase"
+      "Integrasi software pihak ketiga seperti Firebase"
     )
   ],
 
@@ -65,38 +65,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -108,6 +76,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "unity",
+      fontAwesomeClassname: "fa-brands fa-unity"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fa-brands fa-java"
+    },
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: "fa-sharp fa-solid fa-f"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -122,7 +102,7 @@ const educationInfo = {
       schoolName: "SMK Prestasi Prima",
       logo: require("./assets/images/PPLogo.png"),
       subHeader: "Jurusan Rekayasa Perangkat Lunak (RPL)",
-      duration: "Juni 2020 - Sekarang",
+      duration: "Juni 2020 - 2023",
       desc: "Berpartisipasi dalam beberapa lomba.",
       descBullets: [
         "Lomba MAGE ITS",
@@ -139,15 +119,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,7 +145,8 @@ const workExperiences = {
       date: "April 2022 – Juni 2022",
       desc: "Bekerja sebagai backend developer flutter.",
       descBullets: [
-        "Bekerja selama 1 setengah bulan mengerjakan aplikasi perpustakaan dengan menggunakan flutter",
+        "Bekerja selama 1 setengah bulan mengetest keamanan website Diginusa",
+        "Bekerja selama 1 setengah bulan mengerjakan aplikasi perpustakaan dengan menggunakan flutter"
       ]
     },
   ]
@@ -330,18 +311,18 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me",
   subtitle:
     "Mau Bekerja sama? atau hanya menyapa silahkan hubungi saya",
   number: "+6287875908732",
-  email_address: "naufal.rara55@gmail.com"
+  email_address: "naufalfirmansyah455@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "NaufalRara55", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "Lenxza", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
