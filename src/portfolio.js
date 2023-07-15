@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Lenxza1",
   linkedin: "https://www.linkedin.com/in/naufal-firmansyah-081827225/",
-  gmail: "naufalfirmansyah455@gmail.com",
+  gmail: "naufal.rara55@gmail.com",
   gitlab: "",
   facebook: "https://facebook.com/naufal.firmansyah.9235",
   medium: "",
